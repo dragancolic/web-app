@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  web-application:
+    image: dcola584/web-app:latest
+    ports:
+      - "4680:3000"
+    command: npm start
